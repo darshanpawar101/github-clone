@@ -1,14 +1,18 @@
 {
-  "name": "new-express",
+  "name": "github-clone",
   "version": "1.0.0",
-  "description": "",
+  "description": "github clone api",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "darshan",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "18.12.1"
   }
 }
