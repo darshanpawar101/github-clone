@@ -54,6 +54,6 @@ Github-Clone is an Express.js/Node.js Project which gives some APIs from the git
 - ##### npm install
 <hr>
 
-#### Step 3 - Build and run the Project locally using below command in terminal at root location of the project
+#### Step 3 - Test Project locally using below command in terminal at root location of the project
 - ##### npm test
 <hr>
