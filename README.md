@@ -12,7 +12,6 @@ Github-Clone is an Express.js/Node.js Project which gives some APIs from the git
 
 #### Step 1 - Clone this project in your workspace using below command
 - ##### git clone https://github.com/darshanpawar101/github-clone.git
-
 <hr>
 
 #### Step 2 - Download the Node Modules and Node Packages by runing below command in terminal at root location of the project
@@ -20,7 +19,7 @@ Github-Clone is an Express.js/Node.js Project which gives some APIs from the git
 <hr>
 
 #### Step 3 - Build and run the Project locally using below command in terminal at root location of the project
-- ##### node app.js
+- ##### node server.js
 <hr>
 
 #### Step 4 - Visit the link in any browser which is showing in the console - 
@@ -44,3 +43,17 @@ Github-Clone is an Express.js/Node.js Project which gives some APIs from the git
 #### Step 7 - Consume the Users API with specific username to find that user repositories with page numbers - 
 - ##### https://localhost:3000/users/{github_username}/repos?page=2
 - ##### Eg - https://localhost:3000/users/johnpapa/repos?page=2
+
+## How to test the Project
+
+#### Step 1 - Clone this project in your workspace using below command
+- ##### git clone https://github.com/darshanpawar101/github-clone.git
+<hr>
+
+#### Step 2 - Download the Node Modules and Node Packages by runing below command in terminal at root location of the project
+- ##### npm install
+<hr>
+
+#### Step 3 - Build and run the Project locally using below command in terminal at root location of the project
+- ##### npm test
+<hr>
