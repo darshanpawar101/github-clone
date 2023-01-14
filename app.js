@@ -1,15 +1,11 @@
 const express = require('express');
 const cors = require('cors');
-const os = require('os');
 
-console.log("HostName = ",os.hostname());
 const app = express();
 app.use(cors());
 
-const port = process.env.PORT || 3000;
-
 app.get('/', (req, res) => {
-  res.send("Welcome to Github Clone");
+  res.status(200).send("Welcome to Github Clone");
 })
 
 app.get('/users', async (req, res) => {
@@ -36,6 +32,4 @@ app.get('/users/:username/repos', async (req, res) => {
     res.status(response.status).json(jsonValue);
 })
 
-app.listen(port, () => {
-  console.log(`Node App listening on port ${port}... click on http://localhost:${port}/ or click on http://${os.hostname()}:${port}/`)
-})
+module.exports = app;
